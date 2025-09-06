@@ -163,4 +163,22 @@
     items: 1
   });
 
+  // Age calculation and injection
+  $(function() {
+    var ageElement = document.getElementById('age');
+    if (!ageElement) return;
+
+    // Birthdate: 10 Sep 2001 (month is 0-based)
+    var birthDate = new Date(2001, 8, 10);
+    var today = new Date();
+
+    var years = today.getFullYear() - birthDate.getFullYear();
+    var hasHadBirthdayThisYear =
+      (today.getMonth() > birthDate.getMonth()) ||
+      (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate());
+    if (!hasHadBirthdayThisYear) years -= 1;
+
+    ageElement.textContent = years;
+  });
+
 })(jQuery);
