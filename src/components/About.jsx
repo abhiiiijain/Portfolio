@@ -99,7 +99,7 @@ export default function About() {
         </div>
         <div className="row">
           <div className="col-lg-4" data-aos="fade-right">
-            <img src="/assets/img/dppriyanshi.png" className="img-fluid" alt="priyanshitayal" />
+            <img src={`${import.meta.env.BASE_URL}assets/img/dppriyanshi.png`} className="img-fluid" alt="priyanshitayal" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Software Engineer</h3>
