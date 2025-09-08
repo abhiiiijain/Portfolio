@@ -45,7 +45,7 @@ export default function Experience() {
         <p><em>ThinkNext Technologies Pvt. Ltd, Mohali</em></p>
         <ul>
           <li>Built interactive and responsive web applications using React.js and JavaScript.</li>
-          <li>Designed and developed a front-end application in React.js to solve a specific user problem.</li>
+          <li>Designed and developed a front-end application in React.js to solve a specific user problems.</li>
           <li>Implemented Redux, Axios, and React Router, improving user experience by 10% through usability testing.</li>
           <li>Created a new application with enhanced performance and scalability by applying industry best practices.</li>
         </ul>
