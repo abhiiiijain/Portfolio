@@ -168,8 +168,8 @@
     var ageElement = document.getElementById('age');
     if (!ageElement) return;
 
-    // Birthdate: 10 Sep 2001 (month is 0-based)
-    var birthDate = new Date(2001, 8, 10);
+    // Birthdate: 13 May 2001 (month is 0-based)
+    var birthDate = new Date(2001, 4, 13);
     var today = new Date();
 
     var years = today.getFullYear() - birthDate.getFullYear();

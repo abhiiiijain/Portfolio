@@ -6,14 +6,18 @@ function Skills() {
       <div className="section-title"><h2>Skills</h2></div>
       <div className="row skills-content">
         {[
-          ['UI Path', 90],
-          ['Power Automate', 85],
-          ['Python', 80],
-          ['HTML', 70],
-          ['Tableau', 70],
-          ['SQL', 80],
-          ['C++', 70],
-          ['CSS', 65],
+          ['HTML', 90],
+          ['CSS', 90],
+          ['JavaScript', 80],
+          ['ReactJS', 80],
+          ['Node.js', 70],
+          ['Express', 60],
+          ['MySQL', 80],
+          ['MongoDB', 85],
+          ['Tailwind CSS', 90],
+          ['C++', 80],
+          ['Data Structures and Algorithms', 80],
+          ['SCSS', 70]
         ].map(([label, val]) => (
           <div key={label} className="col-lg-6">
             <div className="progress">
@@ -34,7 +38,7 @@ function Interests() {
     <div className="interests container">
       <div className="section-title"><h2>Interests</h2></div>
       <div className="row">
-        {['Artificial Inteligence', 'Machine Learning', 'Dats Science', 'Github'].map((t) => (
+        {['Data Structures and Algorithms', 'SQL', 'Problem Solving', 'MERN Stack', 'C++', 'SCSS'].map((t) => (
           <div key={t} className="col-lg-3 col-md-4 mt-4 mt-md-4"><div className="icon-box"><h3>{t}</h3></div></div>
         ))}
       </div>
@@ -47,7 +51,7 @@ function Languages() {
     <div className="language container">
       <div className="section-title"><h2>Languages</h2></div>
       <div className="row">
-        {['English', 'Hindi'].map((t) => (
+        {['English', 'Punjabi', 'Hindi'].map((t) => (
           <div key={t} className="col-lg-3 col-md-4"><div className="icon-box"><h3>{t}</h3></div></div>
         ))}
       </div>
@@ -61,11 +65,11 @@ function OtherSkills() {
       <div className="section-title"><h2>Other skills</h2></div>
       <div className="owl-carousel testimonials-carousel">
         {[
-          'Excellent verbal, interpersonal and written communication skills to stand in society and take part in debates.',
-          'Ability to effectively operate in a team environment and co-operate with all other members for efficient work.',
-          'Well-developed skills in organization, decision-making, and time-management.',
-          'Focused, multi-task oriented, ability to work effectively in challenging and emergency situations.',
-          'Strong work ethic, including experience with developing presentations.'
+          'Strong verbal, written, and interpersonal communication skills with the ability to confidently engage in discussions and presentations.',
+          'Proven ability to collaborate effectively within team environments to achieve common goals.',
+          'Well-developed organizational, decision-making, and time-management skills.',
+          'Adaptable and focused, with the ability to manage multiple tasks and perform effectively in challenging or high-pressure situations.',
+          'Committed work ethic, with experience in creating and delivering impactful presentations.',
         ].map((text) => (
           <div key={text} className="testimonial-item"><p><i className="bx bxs-quote-alt-left quote-icon-left"></i>{text}<i className="bx bxs-quote-alt-right quote-icon-right"></i></p></div>
         ))}
@@ -99,25 +103,35 @@ export default function About() {
         </div>
         <div className="row">
           <div className="col-lg-4" data-aos="fade-right">
-            <img src={`${import.meta.env.BASE_URL}assets/img/dp.jpg`} className="img-fluid" alt="priyanshitayal" />
+            <img src={`${import.meta.env.BASE_URL}assets/img/dpabhiii.png`} className="img-fluid" alt="AbhinandanJain" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Software Engineer</h3>
             <p className="font-italic">
-              Results-driven RPA Developer with one year of experience designing and deploying automation solutions using UiPath and Power Automate. Skilled in process analysis, system integration, and workflow optimization across ERP, CRM, and legacy platforms, with a focus on delivering scalable and cost-efficient automation aligned with business objectives. I hold a Bachelor’s degree in Computer Science from Chandigarh Engineering College, CGC Landran, and bring strong technical foundations in C++, Python, and DSA.
+              Driven by the desire to grow in a dynamic and competitive environment, I aim to leverage my skills
+              to contribute to impactful digital solutions while expanding my knowledge of cutting-edge technologies.
+              I hold a Bachelor of Technology in Computer Science from Chandigarh Engineering College, CGC Landran,
+              with a strong foundation in Operating Systems, Data Structures, Algorithms, Databases, and Networking.
+              <br />
+              I have hands-on experience in developing and optimizing scalable, user-friendly web applications using
+              the MERN Stack and MySQL, gained through professional project work in collaborative Agile environments.
+              My technical expertise includes C++, Data Structures and Algorithms (DSA), HTML, CSS, JavaScript, ReactJS,
+              Node.js, Express, MySQL, and MongoDB, along with proficiency in Redux, Tailwind CSS, and Ant Design. I
+              also hold a 5-star C++ badge on HackerRank and possess strong problem-solving abilities with a
+              focus on writing efficient, maintainable code.
             </p>
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="icofont-rounded-right"></i> <strong>Date of Birth:</strong> 10 Sep 2001</li>
-                  <li><i className="icofont-rounded-right"></i> <strong>Phone:</strong> 8171548621</li>
-                  <li><i className="icofont-rounded-right"></i> <strong>City:</strong> Roorkee, India</li>
+                  <li><i className="icofont-rounded-right"></i> <strong>Date of Birth:</strong> 13 May 2001</li>
+                  <li><i className="icofont-rounded-right"></i> <strong>Phone:</strong> 9588544510</li>
+                  <li><i className="icofont-rounded-right"></i> <strong>City:</strong> Ratia, India</li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
                   <li><i className="icofont-rounded-right"></i> <strong>Age:</strong> <span id="age"></span></li>
-                  <li><i className="icofont-rounded-right"></i> <strong>Email:</strong> <a href="mailto:priyanshitayal10@gmail.com">priyanshitayal10@gmail.com</a></li>
+                  <li><i className="icofont-rounded-right"></i> <strong>Email:</strong> <a href="mailto:abhinandanbansal123@gmail.com">abhinandanbansal123@gmail.com</a></li>
                 </ul>
               </div>
             </div>

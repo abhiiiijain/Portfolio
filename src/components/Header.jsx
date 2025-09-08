@@ -19,11 +19,11 @@ function Header({ active, setActive }) {
   return (
     <header id="header" className={active === 'home' ? 'header-tops' : 'header-top'}>
       <div className="container">
-        <h1><a href="#header" onClick={(e) => { e.preventDefault(); setActive('home') }}>Priyanshi Tayal</a></h1>
+        <h1><a href="#header" onClick={(e) => { e.preventDefault(); setActive('home') }}>Abhinandan Jain</a></h1>
         <h2>Software Engineer</h2>
         <div className="social-links">
-          <a href="https://www.linkedin.com/in/priyanshi-tayal-452792213" className="linkedin"><i className="icofont-linkedin"></i></a>
-          <a href="https://github.com/tayalpriyanshi10" className="github"><i className="icofont-github"></i></a>
+          <a href="https://www.linkedin.com/in/abhiiiijain" className="linkedin"><i className="icofont-linkedin"></i></a>
+          <a href="https://github.com/abhiiiijain" className="github"><i className="icofont-github"></i></a>
         </div>
         <button
           type="button"

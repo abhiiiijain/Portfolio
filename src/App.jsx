@@ -7,12 +7,12 @@ import Contact from './components/Contact'
 import Credits from './components/Credits'
 
 function App() {
-  const [active, setActive] = useState('about')
+  const [active, setActive] = useState('home')
 
   useEffect(() => {
     const el = document.getElementById('age')
     if (el) {
-      const birthDate = new Date(2001, 8, 10)
+      const birthDate = new Date(2001, 4, 13)
       const today = new Date()
       let years = today.getFullYear() - birthDate.getFullYear()
       const hasHadBirthdayThisYear = (today.getMonth() > birthDate.getMonth()) || (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate())
